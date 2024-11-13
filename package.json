@@ -60,5 +60,6 @@
   "ember-addon": {
     "configPath": "tests/dummy/config"
   },
-  "readmeFile": "README.md"
+  "readmeFile": "README.md",
+  "packageManager": "pnpm@9.11.0"
 }

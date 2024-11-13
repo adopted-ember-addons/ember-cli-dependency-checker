@@ -81,7 +81,7 @@ Pinning solely to versioned releases should be preferred.
 
 To run tests:
 
-`npm test`
+`pnpm test`
 
 ### LICENSE
 
