@@ -12,18 +12,15 @@
     "node",
     "npm"
   ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/quaertym/ember-cli-dependency-checker.git"
+  "bugs": {
+    "url": "https://github.com/adopted-ember-addons/ember-cli-dependency-checker/issues"
   },
+  "repository": "https://github.com/adopted-ember-addons/ember-cli-dependency-checker",
   "license": "MIT",
   "author": "Emre Unal",
   "directories": {
     "doc": "doc",
     "test": "tests"
-  },
-  "bugs": {
-    "url": "https://github.com/quaertym/ember-cli-dependency-checker/issues"
   },
   "scripts": {
     "lint:js": "eslint .",
@@ -49,17 +46,18 @@
     "glob": "^8.0.1",
     "mocha": "^9.2.2",
     "mocha-eslint": "^7.0.0",
+    "release-plan": "^0.9.0",
     "sinon": "^13.0.2"
   },
   "peerDependencies": {
     "ember-cli": "^3.2.0 || >=4.0.0"
   },
+  "packageManager": "pnpm@9.11.0",
   "engines": {
     "node": ">= 6"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
   },
-  "readmeFile": "README.md",
-  "packageManager": "pnpm@9.11.0"
+  "readmeFile": "README.md"
 }
