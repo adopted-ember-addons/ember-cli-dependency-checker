@@ -44,7 +44,7 @@
     "eslint-plugin-mocha": "^9.0.0",
     "eslint-plugin-node": "^11.1.0",
     "glob": "^8.1.0",
-    "mocha": "^9.2.2",
+    "mocha": "^10.8.2",
     "mocha-eslint": "^7.0.0",
     "release-plan": "^0.9.0",
     "sinon": "^13.0.2"
@@ -54,7 +54,7 @@
   },
   "packageManager": "pnpm@10.28.2+sha512.41872f037ad22f7348e3b1debbaf7e867cfd448f2726d9cf74c08f19507c31d2c8e7a11525b983febc2df640b5438dee6023ebb1f84ed43cc2d654d2bc326264",
   "engines": {
-    "node": ">= 10"
+    "node": ">= 14"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
