@@ -13,6 +13,7 @@ describe('EmberCLIDependencyChecker', function() {
 
   packageManagerTest('yarn');
   packageManagerTest('npm');
+  packageManagerTest('pnpm');
 
   function packageManagerTest(packageManagerName) {
     function createProject(dependencies, options) {
