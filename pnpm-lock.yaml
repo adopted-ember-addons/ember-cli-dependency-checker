@@ -36,9 +36,6 @@ importers:
       eslint:
         specifier: ^7.32.0
         version: 7.32.0
-      eslint-plugin-chai:
-        specifier: ^0.0.1
-        version: 0.0.1(eslint@7.32.0)
       eslint-plugin-ember:
         specifier: ^10.6.1
         version: 10.6.1(eslint@7.32.0)
@@ -1393,11 +1390,6 @@ packages:
   escape-string-regexp@4.0.0:
     resolution: {integrity: sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==}
     engines: {node: '>=10'}
-
-  eslint-plugin-chai@0.0.1:
-    resolution: {integrity: sha512-G3TF8U66WSyssaVzdxWl7jzjkZKdR8YCUM2hmroCfdHBX+SlqzLjQ9UBRtxRrI2d44sseNCRaz466ngFsjVWNw==}
-    peerDependencies:
-      eslint: '>=0.8.0 || ~1.0.0-rc-0'
 
   eslint-plugin-ember@10.6.1:
     resolution: {integrity: sha512-R+TN3jwhYQ2ytZCA1VkfJDZSGgHFOHjsHU1DrBlRXYRepThe56PpuGxywAyDvQ7inhoAz3e6G6M60PzpvjzmNg==}
@@ -5605,10 +5597,6 @@ snapshots:
   escape-string-regexp@1.0.5: {}
 
   escape-string-regexp@4.0.0: {}
-
-  eslint-plugin-chai@0.0.1(eslint@7.32.0):
-    dependencies:
-      eslint: 7.32.0
 
   eslint-plugin-ember@10.6.1(eslint@7.32.0):
     dependencies:
