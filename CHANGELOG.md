@@ -1,5 +1,20 @@
 # Changelog
 
+## Release (2026-02-23)
+
+ember-cli-dependency-checker 3.4.0 (minor)
+
+#### :rocket: Enhancement
+* `ember-cli-dependency-checker`
+  * [#6](https://github.com/adopted-ember-addons/ember-cli-dependency-checker/pull/6) Add Support for projects using pnpm ([@eliasdawson-addepar](https://github.com/eliasdawson-addepar))
+
+#### :house: Internal
+* `ember-cli-dependency-checker`
+  * [#7](https://github.com/adopted-ember-addons/ember-cli-dependency-checker/pull/7) Update dependencies ([@eliasdawson-addepar](https://github.com/eliasdawson-addepar))
+
+#### Committers: 1
+- Elias Dawson ([@eliasdawson-addepar](https://github.com/eliasdawson-addepar))
+
 ## Release (2024-11-13)
 
 ember-cli-dependency-checker 3.3.3 (patch)
